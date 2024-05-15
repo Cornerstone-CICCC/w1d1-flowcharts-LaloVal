@@ -1,4 +1,4 @@
-# Flowchart Exercises
+ Flowchart Exercises
 
 ## Requirements
 
@@ -9,7 +9,6 @@
 - Add each flowchart to the answer section of this file as image.
 - Each exercise should be in a different commit.
 - If you want to make changes after your commit, you should create a new commit.
-- Be clear when adding comments to your commits.
 
 ## Exercise 1
 
@@ -20,8 +19,13 @@ Pseudocode:
 - Input length in feet (LFT)
 - Calculate the length in cm (LCM) by multiplying LFT by 30
 - Print length in cm (LCM)
+ 
 
-### _Answer_
+### START
+### Input lenght in feet (f)
+### Convertion (L) <---  f * 30
+### Output L
+### END 
 
 ## Exercise 2
 
@@ -33,7 +37,13 @@ Pseudocode:
 - Calculate the area (A) by multiplying W by L
 - Print A
 
-### _Answer_
+### START
+### Input lenght (L)
+### Input lenght (W)
+### Area (A) <---  L * W
+### Output A
+### END 
+
 
 ## Exercise 3
 
@@ -41,13 +51,26 @@ Write an algorithm and draw a flowchart that will read three numbers and prints 
 
 > Given that the three numbers are not equal to each other)
 
-### _Answer_
+### START
+### Input lenght (a)
+### Input lenght (b)
+### Input lenght (c)
+### m = a > b ? (a > c ? a : c) : (b > c ? b : c)
+### Output m
+### END 
 
 ## Exercise 4
 
 Write an algorithm and draw a flowchart to check the three number inputs whether a triangle is possible or not.
 
-### _Answer_
+### START
+### Input (a)
+### Input (b)
+### Input (c)
+### If= (a+b)>c and (b+c)> a and (c+a)>B
+### True = Print "Triangle possible" 
+### False = Print "Triangle not  Possible" 
+### END 
 
 ## Exercise 5
 
