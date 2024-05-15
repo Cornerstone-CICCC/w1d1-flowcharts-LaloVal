@@ -21,7 +21,7 @@ Pseudocode:
 - Print length in cm (LCM)
  
 
-### START
+### Code
 ### Input lenght in feet (f)
 ### Convertion (L) <---  f * 30
 ### Output L
